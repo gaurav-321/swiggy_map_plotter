@@ -1,24 +1,21 @@
 # 🗺️ Swiggy Map Plotter
 
-## ✨ Description
-
+✨ **Description**  
 Swiggy Map Plotter is a Python program that allows users to visualize geographic coordinates on an interactive map using Plotly. The project includes two main scripts: `main.py` for plotting geographic data and `temp.py` for retrieving and processing order tracking data from Swiggy.
 
-## 🚀 Features
-
+🚀 **Features**
 - **Interactive Scatter Plot:** Generates a scatter plot of geographic coordinates.
 - **Order Tracking Data Retrieval:** Fetches and processes order tracking data from Swiggy.
 - **Randomized Marker Sizes:** Assigns random sizes to valid locations on the map.
 
-## 🛠️ Installation
-
+🛠️ **Installation**  
 To use this project, you need to have Python installed along with the required dependencies. Follow these steps to install the dependencies:
 
 ```bash
 pip install pandas plotly.express requests
 ```
 
-## 📦 Usage
+📦 **Usage**
 
 ### main.py
 
@@ -56,15 +53,13 @@ from temp import get_cords
 get_cords(10)
 ```
 
-## 🔧 Configuration (if applicable)
-
+🔧 **Configuration**  
 No additional configuration is required. The script uses default settings.
 
-## 🧪 Tests (if available)
-
+🧪 **Tests**  
 This project does not include tests at the moment, but you can add your own unit tests to ensure the functionality remains intact.
 
-## 📁 Project Structure
+📁 **Project Structure**
 
 ```
 swiggy_map_plotter/
@@ -77,12 +72,10 @@ swiggy_map_plotter/
 - `temp.py`: Contains the script for retrieving and processing order tracking data.
 - `README.md`: This file.
 
-## 👩‍💻 Contributing
-
+🙌 **Contributing**  
 Contributions are welcome! Feel free to open issues or submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
-
+📄 **License**  
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
